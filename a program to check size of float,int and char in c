@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+main()
+{
+float cgpa;
+int roll;
+char grade;
+printf("%d \n", sizeof (cgpa));
+printf("%d \n", sizeof (roll));
+printf("%d \n", sizeof (grade));
+
+}
