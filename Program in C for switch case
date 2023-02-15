@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main ()
+{
+    char day ;
+    printf("enter day 1 for monday , 2 for tuesday .... and so on : ");
+    scanf("%c",&day);
+    switch(day)
+    {
+        case '1':
+            printf("check the time table for monday");
+            break;
+        case '2':
+            printf("check the time table for tuesday");
+            break;
+        case '3':
+            printf("check the time table for wedneday");
+            break;
+        case '4':
+            printf("check the time table for thursday");
+            break;
+        case '5':
+            printf("check the time table for friday \n");
+            printf("allowed");
+            break;
+        case '6':
+            printf("check the time table for saturday");
+            break;
+        default:
+            printf("enjoy the holiday");
+    }
+       printf(" \n we are out of swith-case");
+    }
