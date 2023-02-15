@@ -1,0 +1,17 @@
+//Finding sum of series using C
+#include<stdio.h>
+int main()
+{
+    int num,x=1,sum=0;
+    printf("Enter s number for sum of series ");
+    scanf("%d", &num);
+    while(x<=num)
+    {
+    sum=sum+x;
+    x++;
+
+
+    }
+    printf("%d",sum);
+    return 0;
+    }
