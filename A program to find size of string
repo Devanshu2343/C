@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main (){
+    char str []="Practice MCQ";
+    printf("\n %d", sizeof(str));
+    return 0;
+}
